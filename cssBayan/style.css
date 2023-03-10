@@ -85,7 +85,7 @@ main {
 .accordion-input:checked~.accordion-meme {
     overflow: visible;
     opacity: 100%;
-    height: 10rem;
+    height: 17rem;
 }
 
 /* .accordion-input:checked~.accordion-title:after {
@@ -124,5 +124,20 @@ main {
 
 .accordion-meme.img2 {
     background-image: url(../cssBayan/images/crow.jpg);
+    height: 0px;
+}
+
+.accordion-meme.img3 {
+    background-image: url(../cssBayan/images/kilgrave.jpg);
+    height: 0px;
+}
+
+.accordion-meme.img4 {
+    background-image: url(../cssBayan/images/kZa2bavg5b4.jpg);
+    height: 0px;
+}
+
+.accordion-meme.img5 {
+    background-image: url(../cssBayan/images/xas0bVP_odU.jpg);
     height: 0px;
 }
