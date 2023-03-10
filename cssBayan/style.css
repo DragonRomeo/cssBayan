@@ -37,7 +37,7 @@ main {
 }
 
 .accordion-title {
-    /* padding: 10px 15px; */
+    max-width: 80%;
     transition: background .2s ease-out;
 }
 
@@ -55,6 +55,11 @@ main {
     padding-top: 1rem;
     max-width: 100%;
     transition: all ease 1s;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .acc-wrapper {
@@ -72,9 +77,9 @@ main {
     transition: all ease 1s;
 }
 
-.accordion-title:after {
+/* .accordion-title:after {
     content: '+';
-}
+} */
 
 
 .accordion-input:checked~.accordion-meme {
@@ -83,10 +88,10 @@ main {
     height: 10rem;
 }
 
-.accordion-input:checked~.accordion-title:after {
+/* .accordion-input:checked~.accordion-title:after {
     content: '-';
-    /* background-color: black; */
-}
+    
+} */
 
 .accordion-input:checked~.icon {
     transition: 0.5s;
@@ -107,6 +112,7 @@ main {
 }
 
 .accordion-meme {
+    width: 100%;
     overflow: hidden;
     opacity: 0;
     height: 0;
