@@ -107,8 +107,8 @@ main {
 .icon {
     background-image: url(../cssBayan/images/mug-hot-solid.svg);
     transition: 0.5s;
-    width: 20px;
-    height: 20px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .accordion-meme {
@@ -124,20 +124,20 @@ main {
 
 .accordion-meme.img2 {
     background-image: url(../cssBayan/images/crow.jpg);
-    height: 0px;
+    height: 0;
 }
 
 .accordion-meme.img3 {
     background-image: url(../cssBayan/images/kilgrave.jpg);
-    height: 0px;
+    height: 0;
 }
 
 .accordion-meme.img4 {
     background-image: url(../cssBayan/images/kZa2bavg5b4.jpg);
-    height: 0px;
+    height: 0;
 }
 
 .accordion-meme.img5 {
     background-image: url(../cssBayan/images/xas0bVP_odU.jpg);
-    height: 0px;
+    height: 0;
 }
