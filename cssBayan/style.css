@@ -1,4 +1,10 @@
-body {}
+@import url('https://fonts.googleapis.com/css2?family=Inika&family=Inter:wght@400;700&family=Montserrat&display=swap');
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
 
 *,
 *:before,
@@ -53,6 +59,7 @@ main {
 .accordion-item {
     border-top: 0.15rem solid black;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     max-width: 100%;
     transition: all ease 1s;
 
