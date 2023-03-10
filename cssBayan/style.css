@@ -32,7 +32,7 @@ main {
 /* Accordion */
 .accordion-div {
     max-width: 80%;
-    /* max-height: 100%; */
+    transition: all ease 1s;
 }
 
 .accordion-title {
@@ -45,28 +45,40 @@ main {
     /* Убрать?*/
 }
 
+
+
 .accordion-item {
     border: 1px solid black;
     max-width: 100%;
     /* max-height: 100%; */
-    transition: 1s;
+    transition: all ease 1s;
 }
+
 
 .accordion-input {
     -webkit-appearance: none;
     appearance: none;
     width: 0;
     height: 0;
-    transition: 1s;
+    transition: all ease 1s;
 }
 
 .accordion-input:checked + .accordion-meme {
-    display: block;
+    overflow: visible;
+    opacity: 100%;
+    height: 10rem;
+}
+
+.icon {
+    background-image: url(../cssBayan/images/mug-hot-solid.svg);
+    width: 20px;
+    height: 20px;
 }
 
 .accordion-meme {
-    display: none;
-    height: 136px;
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
     background-image: url(../cssBayan/images/pink.jpg);
     background-size: cover;
     transition: 1s;
@@ -74,5 +86,5 @@ main {
 
 .accordion-meme.img2 {
     background-image: url(../cssBayan/images/crow.jpg);
-    height: 164px;
+    height: 0px;
 }
