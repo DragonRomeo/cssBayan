@@ -28,6 +28,14 @@ h1 {
 }
 
 main {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%; */
+}
+
+.accordion-big-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,11 +199,8 @@ main {
     }
 
     .accordion-item:hover .icon {
-        overflow: visible;
         transform: rotate(180deg);
-        opacity: 100%;
-        height: 2rem;
-        width: 2rem;
+
     }
 
     .accordion-item:hover .accordion-meme {
@@ -205,5 +210,11 @@ main {
         /* cursor: pointer; */
     }
 
+    .accordion-big-wrapper:hover .icon {
+        overflow: visible;
+        opacity: 100%;
+        height: 2rem;
+        width: 2rem;
+    }
 
 }
