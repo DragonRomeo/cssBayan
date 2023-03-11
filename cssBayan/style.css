@@ -148,3 +148,19 @@ main {
     background-image: url(../cssBayan/images/xas0bVP_odU.jpg);
     height: 0;
 }
+
+
+@media (min-width: 819px){
+    body {
+        font-size: 30px;
+    }
+
+    .accordion-item {
+        align-items: flex-start;
+    }
+
+    .icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
