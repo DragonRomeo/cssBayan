@@ -157,10 +157,16 @@ main {
 
     .accordion-item {
         align-items: flex-start;
+        justify-content: space-between;
     }
 
     .icon {
         width: 2rem;
         height: 2rem;
+        margin-right: 2rem;
+    }
+
+    .accordion-meme {
+        margin-left: 20%;
     }
 }
