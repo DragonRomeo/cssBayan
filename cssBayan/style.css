@@ -146,7 +146,7 @@ main {
 }
 
 .accordion-meme.img4 {
-    background-image: url(../cssBayan/images/kZa2bavg5b4.jpg);
+    background-image: url(../cssBayan/images/JBmiAVcYKSE.jpg);
     height: 0;
 }
 
@@ -187,7 +187,12 @@ main {
     
     .accordion-title {
         cursor: pointer;
+        max-width: 41%;
     } 
+
+    .accordion-meme {
+        margin-left: 35%;
+    }
 
     .icon {
         overflow: hidden;
